@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+.promobar {
+  background-color: #FFF266;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 19px;
+}
+
+.top-navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 118px;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.hide {
+  display: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: #0B132B;
+  }
+
+  h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 58px;
+    color: #0B132B;
+  }
+
+  h2 {
+    color: #0B132B;
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 2px 2px #E7ECEF;
+  }
+}
+
+#menu-icon {
+  cursor: pointer;
+  i {
+    font-size: 2.75rem;
+    color: #0B132B;
+  }
+}
+
+#menu {
+  position: absolute;
+  bottom: 526px;
+  left: 141px;
+  background-color: white;
+  width: 151px;
+  padding: 3px 14px;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+
+  a {
+    text-decoration: none;
+    color: #6B717E;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+}
+
+.option {
+  border-radius: 3px;
+  margin: 2px;
+  text-align: center;
+}
+
+#switch {
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    background-color: #0B132B;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 50%;
+    font-size: 29px;
+    width: 72px;
+    text-align: center;
+}

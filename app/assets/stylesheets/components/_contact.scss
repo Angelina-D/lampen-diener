@@ -1,0 +1,31 @@
+.contact{
+  margin-left: 138px;
+  margin-top: 40px;
+
+  h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 24px;
+    color: #0B132B;
+  }
+
+  p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 19px;
+    color: #0B132B;
+  }
+
+  a {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: #0B132B;
+    background-color: #FFF266;
+    padding: 3px;
+    border-radius: 3px;
+  }
+
+  a:hover {
+    background-color: #F9F9F9;
+  }
+
+}

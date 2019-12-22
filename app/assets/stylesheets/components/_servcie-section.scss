@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+
+.service-section {
+  background-color: #f9f9f9;
+
+  h2 {
+    color: #0B132B;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 2px #E7ECEF;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  span {
+    text-align: center;
+    color: #0B132B;
+    font-family: 'Rajdhani', sans-serif;
+    width: 65%;
+    font-size: 24px;
+  }
+}
+
+.service-detail {
+  width: 610px;
+  height: 315px;
+  margin: 10px;
+}
+
+.service-2x {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-detail {
+  cursor: pointer;
+  text-align: center;
+
+  h2 {
+    font-family: 'Rajdhani', sans-serif;
+    color: #0B132B;
+    font-size: 50px;
+    text-shadow: 2px 2px #E7ECEF;
+    margin-top: 19%;
+  }
+
+  span {
+    visibility: hidden;
+  }
+}
+
+.service-detail:hover {
+  cursor: pointer;
+  text-align: center;
+  background-color: white;
+
+  h2 {
+    visibility: hidden;
+  }
+
+  span {
+    visibility: visible;
+    position: relative;
+    bottom: 66px;
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #0B132B;
+    font-family: 'Rajdhani', sans-serif;
+    }
+}
+
+#reperatur {
+  background-image: image_url("reperatur.png");
+  background-size: cover;
+  border-radius: 29px;
+}
+
+#reperatur:hover {
+  background-color: white;
+  background-image: none;
+  border-radius: 29px;
+}
+
+#batterie {
+  background-image: image_url('batterie.png');
+  background-size: cover;
+  border-radius: 29px;
+}
+
+#batterie:hover {
+  background-color: white;
+  background-image: none;
+  border-radius: 29px;
+}
+
+#leuchtenbau {
+  background-image: image_url('leuchtenbau.png');
+  background-size: cover;
+  border-radius: 29px;
+}
+
+#leuchtenbau:hover {
+  background-color: white;
+  background-image: none;
+  border-radius: 29px;
+}
+
+#lieferung {
+  background-image: image_url('lieferung.png');
+  background-size: cover;
+  border-radius: 29px;
+}
+
+#lieferung:hover {
+  background-color: white;
+  background-image: none;
+  border-radius: 29px;
+}
